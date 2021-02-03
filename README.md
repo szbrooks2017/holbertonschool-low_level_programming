@@ -1,1 +1,1 @@
-# holbertonschool-low_level_programming
+A description of c basics
