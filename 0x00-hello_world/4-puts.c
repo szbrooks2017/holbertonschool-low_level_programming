@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main- with main you can begin the function
- *
- *Return: with return you have to give back an intenger
- */
+* main- with main you can begin the statement
+*
+* Return: with return you have to give back what you took
+*/
 
 int main(void);
 {
