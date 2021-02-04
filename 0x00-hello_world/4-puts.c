@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- *main - with main you can begin the function
+ *main- with main you can begin the function
  *
  *Return: with return you have to give back an intenger
  */
