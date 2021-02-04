@@ -6,7 +6,6 @@
 * printf- prints to the screen
 *
 * Return- with return you return the integer
-*
 */
 
 int main(void)
