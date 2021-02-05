@@ -25,7 +25,7 @@ printf("%d is positive\n", n);
 }
 else
 {
-printf("%d is negativen\n", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
