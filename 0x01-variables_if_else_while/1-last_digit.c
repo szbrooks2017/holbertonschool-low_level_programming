@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdi0.h>
+#include <stdio.h>
 
 /**
 * main- begins the statement
