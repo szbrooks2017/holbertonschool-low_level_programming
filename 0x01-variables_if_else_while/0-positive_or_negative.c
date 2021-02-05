@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-*main- begins the statement
+* main- begins the statement
 *
-*Return: returns the int, which is 0
+* Return: returns the int, which is 0
 */
 
 int main(void)
