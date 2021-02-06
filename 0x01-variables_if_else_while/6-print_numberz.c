@@ -13,8 +13,8 @@ int a = '0';
 
 while (a <= '9')
 {
-putchar (a++);
+putchar(a++);
 }
-putchar ("\n");
+putchar('\n');
 return (0);
 }
