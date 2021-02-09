@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * main - begins the statement
- * 
+ * print_alphabet_x10 - prints the alphabet
+ *
  * Return: returns 0
  */
 
@@ -15,7 +15,9 @@ char a;
 while (i++ <= 10)
 {
 for (a = 'a'; a <= 'z'; a++)
+{
 _putchar(a);
-_putchar('\n');
 }
+_putchar('\n');
+return;
 }
