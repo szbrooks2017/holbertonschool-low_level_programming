@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * islower - searches for lowercase
+ *  _islower - searches for lowercase
  *
  * @c: character
  *
@@ -10,7 +10,7 @@
 
 int _islower(int c)
 {
-if (c >= 141 && c <= 171)
+if (c >= 'a' && c <= 'z')
 return (1);
 else
 return (0);
