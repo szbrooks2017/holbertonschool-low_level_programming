@@ -1,7 +1,7 @@
 #include "holberton.h"
 
-/*
-* _isupper - looks for upper
+/**
+* _isupper - Looks for upper.
 * @c: is an int
 * Return: returns an int
 */
