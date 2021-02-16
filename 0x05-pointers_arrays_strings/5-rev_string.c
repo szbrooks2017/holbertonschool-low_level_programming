@@ -3,12 +3,12 @@ int _strlen(char *s);
 /**
 * rev_string - reverses the string
 * @s: is an int
-* _strlen - finds teh length
+* _strlen - finds teh lengt
 */
 
 void rev_string(char *s)
 {
-char length = _strlen(s);
+int length = _strlen(s);
 int i;
 int j;
 for (i = 0, j = length - 1; i < j; i++, j--)
