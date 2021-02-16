@@ -28,16 +28,3 @@ while (s[c] != '\0')
 c++;
 return (c);
 }
-/*
-void print_rev(char *str)
-
-
-* - don't change it works
-int length = 0, string;
-while (s[string++])
-length++;
-for (string = length - 1; string >= 0; string--)
-_putchar(s[string]);
-_putchar('\n');
-}
-*/
