@@ -2,7 +2,7 @@
 int _strlen(char *s);
 /**
 * print_rev - prints in reverse
-* @str: is a string
+* @s: is a string
 * Return: returns 0
 */
 
