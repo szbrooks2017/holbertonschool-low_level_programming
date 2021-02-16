@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
-* strlen - strlen in standard lib
+* _strlen - strlen in standard lib
 * @str: is a string
 * Return: returns 0
 */
@@ -14,5 +14,4 @@ int len = 0;
 while (*str++)
 len++;
 return (len);
-
 }
