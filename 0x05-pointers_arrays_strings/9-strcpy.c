@@ -7,14 +7,25 @@
 * @src: the source
 */
 
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
-int copy = 0;
+int copy;
+int len = _strlen(src);
+for (copy = 0; copy <= len; copy++)
 
-while (src[copy])
-{
 dest[copy] = src[copy];
-copy++;
-}
+
 return (dest);
+}
+/**
+* _strlen - looks at the string
+* @s: is an int
+* Return: returns 0
+*/
+int _strlen(char *s)
+{
+int c = 0;
+while (s[c] != '\0')
+c++;
+return (c);
 }
