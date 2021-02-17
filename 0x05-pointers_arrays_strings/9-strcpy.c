@@ -2,7 +2,7 @@
 
 /**
 * _strcpy - copies a string
-*
+* Return: returns the pointer
 * @dest: a buffer to copy the string
 * @src: the source
 */
