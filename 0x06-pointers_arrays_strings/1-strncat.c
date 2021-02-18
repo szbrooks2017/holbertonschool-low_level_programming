@@ -1,21 +1,21 @@
 #include "holberton.h"
 int _strlen(char *s);
 /**
-* *_strcat - concatenates the string
+* *_strncat - concatenates the string
 * @dest: is the destinatin
 * @src: is the source
+* @n: is a number
 * Return: returns dest
 */
 
 char *_strncat(char *dest, char *src, int n)
 {
-        int dest_length = _strlen(dest);
-        int appending;
+	int dest_length = _strlen(dest);
+	int appending;
 
-        for (appending = 0; appending < n && src[appending] != '\0'; appending++)
-
-        dest[dest_length + appending] = src[appending];
-        dest[dest_length + appending] = '\0';
+	for (appending = 0; appending < n && src[appending] != '\0'; appending++)
+	dest[dest_length + appending] = src[appending];
+	dest[dest_length + appending] = '\0';
 return (dest);
 }
 
