@@ -12,18 +12,14 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
-		{
-			s[i] = s[i] - 32;
-		}
 		for (a = 0; a <= 12; a++)
 		{
 			if (s[i] == spesh[a])
 			{
+			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+			s[i + 1] = s[i + 1] - 32;
 			}
-			
 		}
 	}
 	return (s);
 }
-
