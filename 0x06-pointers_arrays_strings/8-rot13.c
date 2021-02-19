@@ -1,10 +1,14 @@
 #include "holberton.h"
-
+/**
+* *rot13 - scrambles string
+* @s: is an int
+* Return: returns 0
+*/
 
 char *rot13(char *s)
 {
 	int i;
-	int n;	
+	int n;
 	char alph[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
@@ -15,10 +19,9 @@ char *rot13(char *s)
 			if (alph[n] == s[i])
 			{
 				s[i] = rot[n];
-				break;	
+				break;
 			}
 		}
-		
 	}
 	return (s);
 }
