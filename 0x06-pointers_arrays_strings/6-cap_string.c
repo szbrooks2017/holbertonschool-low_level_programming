@@ -12,7 +12,7 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (a = 0; a <= 12; a++)
+		for (a = 0; a < 13; a++)
 		{
 			if (s[i] == spesh[a])
 			{
