@@ -12,6 +12,8 @@ char *cap_string(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
+		if (*s >= 'a' && *s <= 'z')
+			s[i] = s[i] - 32;
 		for (a = 0; a < 13; a++)
 		{
 			if (s[i] == spesh[a])
