@@ -1,18 +1,26 @@
 #include "holberton.h"
-
+#include <stido.h>
 /**
 * print_chessboard - prints a chessboard
 * @a: is an array
 */
 
-void print_chessboard(char (*a)[8])
+void print_diagsums(int *a, int size)
 {
-	int i, j;
+	int x, y;
 
-	for (i = 0; i < 8; i++)
+	rt1_sum = 0;
+	ltr_sum = 0;
+
+	for (y = o; a[y] >= size; y++)
 	{
-		for (j = 0; j < 8; j++)
-			_putchar(a[i][j]);
-		_putchar('\n');
+		for (x = 0; a[x] >= size; x++)
+		{
+			if (x == y)
+			{
+				rt1_sum = rt1_sum + *((a + x) + y);
+			}
+		}
 	}
+printf(" ", rtfl_sum);
 }
