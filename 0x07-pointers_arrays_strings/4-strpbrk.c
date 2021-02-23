@@ -13,6 +13,10 @@ char *_strpbrk(char *s, char *accept)
 		return ('\0');
 	while (*s)
 	{
+		if (s == '\0' || accept == '\0')
+                {
+		return ('\0');
+		}
 		if (_strchr(accept, *s))
 		{
 		return (s);
