@@ -8,13 +8,20 @@
 
 void print_diagsums(int *a, int size)
 {
-	int y, rt1_sum = 0, lt1_sum = 0;
+	int x, i, d1, d2;
 
-	for (y = 0; y < size; y++)
+	d1 = 0;
+	x = size + 1;
+	for (i = 0; i < size; i++)
 	{
-		rt1_sum += a[(size + 1) * y];
-		lt1_sum += a[(size - 1) * (y + 1)];
-		}
-printf("%d, %d\n", rt1_sum, lt1_sum);
-}
+		d1 += *(a + (x * i));
+	}
 
+	d2 = 0;
+	x = size - 1;
+	for (i = 1; i < size + 1; i++)
+	{
+		d2 += *(a + (x * i));
+	}
+printf("%d, %d\n", d1, d2);
+}
