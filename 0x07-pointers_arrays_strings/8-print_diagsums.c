@@ -1,8 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* print_chessboard - prints a chessboard
+* print_diagsums - prints a chessboard
 * @a: is an array
+* @size: is the length of the diag
 */
 
 void print_diagsums(int *a, int size)
