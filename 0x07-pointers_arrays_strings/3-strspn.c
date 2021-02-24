@@ -6,22 +6,23 @@
 * Return: returns the number of characters in s1 which only consists of s2
 */
 
-
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, c = 0;
+	unsigned int a = 0, b, t = 0;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (accept[a])
 	{
-		for (j = 0; accept[j] != '\0'; j++)
+		b = 0;
+
+		while (s[b] != 32)
 		{
-			if (s[i] == accept[j])
+			if (accept[a] == s[b])
 			{
-			c++;
-			break;
+			t++;
 			}
-	if (accept[j] == '\0')
-	break;
+		b++;
+		}
+	a++;
 	}
-return (c);
+return (t);
 }
