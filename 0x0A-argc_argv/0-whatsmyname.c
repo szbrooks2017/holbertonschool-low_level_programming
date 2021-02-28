@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "holberton.h"
+
 /**
 * main - prints name from command line
 * @argc: counts arguments
