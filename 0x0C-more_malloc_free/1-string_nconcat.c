@@ -11,17 +11,15 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int i = 0, dog = n;
+	unsigned int i, dog = n;
 	char *cat;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	while (s1[i])
-		i++;
-	while (s2[i])
 
+	for (i = 0; s1[i]; i++)
 		dog++;
 
 	cat = malloc(sizeof(char) * (dog + 1));
