@@ -2,10 +2,10 @@
 #include "holberton.h"
 
 /*
-*
-*
-*
-*
+* argstostr - concatenates strings
+* @ac: size of string
+* @av: string to concatenate
+* Return: returns a pointer to the string
 *
 */
 
@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 	string = malloc(sizeof(char) * size + 1);
 	if (string == NULL)
 		return (NULL);
-	
+
 	newstring = string;
 	ac_len = 0;
 
