@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "holberton.h"
 
-/*
+/**
 * _calloc - allocates mem beg with 0
 * @size: the byte size of each array element
 * @nmemb: number of elements
