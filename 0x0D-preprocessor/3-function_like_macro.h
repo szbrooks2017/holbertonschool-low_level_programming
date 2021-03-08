@@ -6,6 +6,6 @@
 * @x: is the parameter of the macro
 */
 
-#define ABS(x) ((x) < 0 ? (-1) : (x))
+#define ABS(x) ((x) < 0 ? (-x) : (x))
 
 #endif
