@@ -10,29 +10,29 @@
 
 char *_strdup(char *str)
 {
-        int len = 0, a = 0;
-        char *duplicate;
+	int len = 0, a = 0;
+	char *duplicate;
 
-        if (str == NULL)
-                return (NULL);
+	if (str == NULL)
+		return (NULL);
 
-        while (str[len])
-        {
-                len++;
-        }
+	while (str[len])
+	{
+		len++;
+	}
 
-        duplicate = malloc(sizeof(char) * len + 1);
+	duplicate = malloc(sizeof(char) * len + 1);
 
-        if (duplicate == NULL)
-                return (NULL);
+	if (duplicate == NULL)
+		return (NULL);
 
-        while (a < len)
-        {
-                duplicate[a] = str[a];
+	while (a < len)
+	{
+		duplicate[a] = str[a];
 
-                a++;
-        }
-        duplicate[a] = '\0';
+		a++;
+	}
+	duplicate[a] = '\0';
 
 return (duplicate);
 }
@@ -57,16 +57,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (teemo->name == NULL)
 	{
 		free(teemo);
-		return(NULL);
+		return (NULL);
 	}
-	
+
 	teemo->owner = _strdup(owner);
 
 	if (teemo->owner == NULL)
 	{
 		free(teemo->name);
 		free(teemo);
-		return(NULL);
+		return (NULL);
 	}
 
 	teemo->age = age;
