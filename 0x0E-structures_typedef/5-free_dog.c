@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* free-dog - let the dogs out
+* free_dog - let the dogs out
 * @d: is the dog to be freed
 */
 
