@@ -21,8 +21,7 @@ int main(void)
 					putchar((dig2 % 10) + '0');
 					putchar((dig3 % 10) + '0');
 
-					if (dig1 == 7 && dig2 == 8 && dig3 == 9)
-						continue;
+					if (dig1 != 7)
 					{
 						putchar(',');
 						putchar(' ');
