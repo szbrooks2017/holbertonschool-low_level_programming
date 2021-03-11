@@ -9,13 +9,14 @@
 * Return: returns 0
 */
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int (*operator)(int, int);
+	int num1, num2;
 
 	if (argc != 4)
 	{
-		printf("Error\n")
+		printf("Error\n");
 		exit(98);
 	}
 
@@ -26,8 +27,9 @@ int main(argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
+num1 = atoi(argv[2]);
+num2 = atoi(argv[3]);
 
-
-printf("d\n", operator(atoi(argv[1], atoi(argv[3])));
+printf("%d\n", operator(num1, num2));
 return (0);
 }
