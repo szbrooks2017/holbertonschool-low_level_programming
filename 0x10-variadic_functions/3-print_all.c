@@ -36,7 +36,7 @@ void print_all(const char * const format, ...)
 		while (j_dex < 4)
 		{
 			if (format[index] == *form_types[j_dex].symbol)
-			{	
+			{
 				printf("%s", space);
 				form_types[j_dex].print(args);
 				space = ", ";
@@ -51,7 +51,7 @@ void print_all(const char * const format, ...)
 
 /**
 * print_char - prints a char
-* @arg: arguements pointing to char
+* @args: arguements pointing to char
 */
 
 void print_char(va_list args)
@@ -61,7 +61,7 @@ void print_char(va_list args)
 
 /**
 * print_int - prints an int
-* @arg: arguements pointing to int
+* @args: arguements pointing to int
 */
 
 void print_int(va_list args)
@@ -71,7 +71,7 @@ void print_int(va_list args)
 
 /**
 * print_float - prints a float
-* @arg: arguements pointing to float
+* @args: arguements pointing to float
 */
 
 void print_float(va_list args)
@@ -81,7 +81,7 @@ void print_float(va_list args)
 
 /**
 * print_string - prints a string
-* @arg: arguements pointing to int
+* @args: arguements pointing to int
 */
 
 void print_string(va_list args)
