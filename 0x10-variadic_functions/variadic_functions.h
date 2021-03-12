@@ -9,7 +9,7 @@ int sum_them_all(const unsigned int n, ...);
 
 typedef struct form_types
 {
-	char *symbol;
-	void (*print)(va_list args);
+	char *identifier;
+	void (*f)(va_list args);
 } format_t;
 #endif

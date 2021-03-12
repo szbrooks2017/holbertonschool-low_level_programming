@@ -30,15 +30,15 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 
-	while (format[index])
+	while (format[index] && format != NULL)
 	{
 		j_dex = 0;
 		while (j_dex < 4)
 		{
-			if (format[index] == *form_types[j_dex].symbol)
+			if (format[index] == *form_types[j_dex].identifier)
 			{
 				printf("%s", space);
-				form_types[j_dex].print(args);
+				form_types[j_dex].f(args);
 				space = ", ";
 			}
 		j_dex++;
