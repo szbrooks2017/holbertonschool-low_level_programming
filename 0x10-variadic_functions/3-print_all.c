@@ -1,4 +1,10 @@
 #include "variadic_functions.h"
+#include <stdlib.h>
+#include <stdio.h>
+void print_char(va_list args);
+void print_int(va_list args);
+void print_float(va_list args);
+void print_string(va_list args);
 
 /**
 * print_all - prints anything followed by a new line
@@ -11,7 +17,7 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 
-	form_t form_types[] = {
+	format_t form_types[] = {
 		{ "c", print_char },
 		{ "i", print_int },
 		{ "f", print_float },
@@ -20,16 +26,23 @@ void print_all(const char * const format, ...)
 
 	unsigned int index = 0;
 	unsigned int j_dex;
+	char *space = "";
 
 	va_start(args, format);
 
-	/*loop that goes through format*/
 	while (format[index])
 	{
-		/*the stuff*/
-
-	{
-
+		j_dex = 0;
+		while (j_dex < 4)
+		{
+			if (format[index] == *form_types[j_dex].symbol)
+			{	
+				printf("%s", space);
+				form_types[j_dex].print(args);
+				space = ", ";
+			}
+		j_dex++;
+		}
 	index++;
 	}
 	va_end(args);
@@ -63,7 +76,7 @@ void print_int(va_list args)
 
 void print_float(va_list args)
 {
-	printf("%s", va_arg(args, double));
+	printf("%f", va_arg(args, double));
 }
 
 /**
@@ -77,7 +90,7 @@ void print_string(va_list args)
 
 	if (arg == NULL)
 	{
-		print("(nil)");
+		printf("(nil)");
 		return;
 	}
 
