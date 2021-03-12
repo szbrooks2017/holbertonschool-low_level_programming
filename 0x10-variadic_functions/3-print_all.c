@@ -37,7 +37,6 @@ void print_all(const char * const format, ...)
 		{
 			if (format[index] == *form_types[j_dex].identifier)
 			{
-				printf("%s", space);
 				form_types[j_dex].f(args);
 				space = ", ";
 			}
