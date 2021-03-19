@@ -1,7 +1,7 @@
 #include "lists.h"
 #include <string.h>
 /**
-* add_node - adds a node to the end
+* add_node_end - adds a node to the end
 * @head: a pointer to head
 * @str: a string to be added at the end
 * Return: returns pointer
