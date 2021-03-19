@@ -1,12 +1,12 @@
 #include "lists.h"
 #include <string.h>
 #include <stdlib.h>
-int _strlen(char *s);
+
 /**
 * add_node - adds a node at the beginning of list_t list
 * @head: a pointer to the head of list_t list
 * @str: the string to be added to the list
-* Return: if 
+* Return: if
 */
 
 list_t *add_node(list_t **head, const char *str)
