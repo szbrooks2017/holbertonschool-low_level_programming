@@ -6,7 +6,7 @@
 * @str: a string to be added at the end
 * Return: returns pointer
 */
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 
 	list_t *new_node, *tail;
@@ -46,7 +46,5 @@ list_t *add_node(list_t **head, const char *str)
 		}
 		tail->next = new_node;
 	}
-
 	return (new_node);
 }
-
