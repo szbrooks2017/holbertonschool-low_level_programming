@@ -1,0 +1,21 @@
+#include "lists.h"
+/**
+* @h: head of the list of elements
+* print_listint - prints the linked list
+*
+* Return: returns the count
+*/
+
+size_t print_listint(const listint_t *h)
+{
+	int count = 0;
+
+	while (h != '\0')
+	{
+		printf("%d\n", h->n);
+		h = h->next;
+		count++;
+	}
+
+return (count);
+}
