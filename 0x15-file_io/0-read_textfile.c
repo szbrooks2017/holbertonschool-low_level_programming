@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (buff == NULL)
 	return (0);
 
-	o = open(filename, O_RDONLY, 600);
+	o = open(filename, O_RDONLY);
 	if (o == -1)
 	return (0);
 
@@ -33,5 +33,5 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	free(buff);
 	close(o);
-	return (w);
+	return (r);
 }
