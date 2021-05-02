@@ -4,6 +4,8 @@ def island_perimeter(grid):
     land = 0
     water = 0
 
+    if grid is None:
+        return 0
     for row in range(len(grid)):
         for column in range(len(grid[0])):
             if grid[row][column] == 1:
