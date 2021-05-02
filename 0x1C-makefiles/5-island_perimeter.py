@@ -12,4 +12,4 @@ def island_perimeter(grid):
                     water += 1
                 if (column > 0 and grid[row][column - 1] == 1):
                     water += 1
-    return land*4 - water*2
+    return land * 4 - water * 2
