@@ -2,7 +2,6 @@
 def island_perimeter(grid):
 
     land = 0
-
     water = 0
 
     for row in range(len(grid)):
