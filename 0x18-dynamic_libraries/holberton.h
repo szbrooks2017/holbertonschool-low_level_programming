@@ -1,5 +1,7 @@
 #ifndef H_H
 #define H_H
+#include <strdio.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 int _islower(int c);
