@@ -4,7 +4,7 @@
  * hash_table_set - function that adds an element to the hash table.
  * @ht: is the hash table you want to add or update the key/value to
  * @key: is the skey, an not be an empty string
- * @value: is the value associated with the key, must be duplicated, can be empty
+ * @value: is the value paired with the key, must be duplicated, can be empty
  * Return: 1 if success else 0
  */
 
@@ -15,11 +15,11 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int idx;
 
     /* hash table, key, and value can't be null */
-    if (ht == NULL || key == NULL || value == NULL)
+	if (ht == NULL || key == NULL || value == NULL)
 	{
-        return (0);
-	} 
-	
+		return (0);
+	}
+
 	/* set id variable equal to the new key index using task 2 */
 	idx = key_index((unsigned char *)key, ht->size);
 
@@ -31,7 +31,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		return (0);
 	}
-	
+
 	/* set the key value pair and next pointer to new node */
 	node->key = strdup(key);
 	node->value = strdup(value);
