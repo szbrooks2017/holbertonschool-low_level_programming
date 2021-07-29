@@ -1,0 +1,313 @@
+==187472== Memcheck, a memory error detector
+==187472== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==187472== Using Valgrind-3.15.0-608cb11914-20190413 and LibVEX; rerun with -h for copyright info
+==187472== Command: ./g
+==187472== Parent PID: 184374
+==187472== 
+--187472-- 
+--187472-- Valgrind options:
+--187472--    --leak-check=full
+--187472--    --show-leak-kinds=all
+--187472--    --track-origins=yes
+--187472--    --verbose
+--187472--    --log-file=valgrind-out.txt
+--187472-- Contents of /proc/version:
+--187472--   Linux version 5.4.0-80-generic (buildd@lcy01-amd64-030) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #90-Ubuntu SMP Fri Jul 9 22:49:44 UTC 2021
+--187472-- 
+--187472-- Arch and hwcaps: AMD64, LittleEndian, amd64-cx16-lzcnt-rdtscp-sse3-ssse3-avx-avx2-rdrand
+--187472-- Page sizes: currently 4096, max supported 4096
+--187472-- Valgrind library directory: /usr/lib/x86_64-linux-gnu/valgrind
+--187472-- Reading syms from /home/vagrant/holberton/holbertonschool-low_level_programming/0x00-hash_tables/g
+--187472-- Reading syms from /usr/lib/x86_64-linux-gnu/ld-2.31.so
+--187472--   Considering /usr/lib/x86_64-linux-gnu/ld-2.31.so ..
+--187472--   .. CRC mismatch (computed 975d0390 wanted 30bd717f)
+--187472--   Considering /lib/x86_64-linux-gnu/ld-2.31.so ..
+--187472--   .. CRC mismatch (computed 975d0390 wanted 30bd717f)
+--187472--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/ld-2.31.so ..
+--187472--   .. CRC is valid
+--187472-- Reading syms from /usr/lib/x86_64-linux-gnu/valgrind/memcheck-amd64-linux
+--187472--    object doesn't have a symbol table
+--187472--    object doesn't have a dynamic symbol table
+--187472-- Scheduler: using generic scheduler lock implementation.
+--187472-- Reading suppressions file: /usr/lib/x86_64-linux-gnu/valgrind/default.supp
+==187472== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-187472-by-vagrant-on-???
+==187472== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-187472-by-vagrant-on-???
+==187472== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-187472-by-vagrant-on-???
+==187472== 
+==187472== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==187472== don't want to do, unless you know exactly what you're doing,
+==187472== or are doing some strange experiment):
+==187472==   /usr/lib/x86_64-linux-gnu/valgrind/../../bin/vgdb --pid=187472 ...command...
+==187472== 
+==187472== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==187472==   /path/to/gdb ./g
+==187472== and then give GDB the following command
+==187472==   target remote | /usr/lib/x86_64-linux-gnu/valgrind/../../bin/vgdb --pid=187472
+==187472== --pid is optional if only one valgrind process is running
+==187472== 
+--187472-- REDIR: 0x4022e10 (ld-linux-x86-64.so.2:strlen) redirected to 0x580c9ce2 (???)
+--187472-- REDIR: 0x4022be0 (ld-linux-x86-64.so.2:index) redirected to 0x580c9cfc (???)
+--187472-- Reading syms from /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_core-amd64-linux.so
+--187472--    object doesn't have a symbol table
+--187472-- Reading syms from /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so
+--187472--    object doesn't have a symbol table
+==187472== WARNING: new redirection conflicts with existing -- ignoring it
+--187472--     old: 0x04022e10 (strlen              ) R-> (0000.0) 0x580c9ce2 ???
+--187472--     new: 0x04022e10 (strlen              ) R-> (2007.0) 0x0483f060 strlen
+--187472-- REDIR: 0x401f5f0 (ld-linux-x86-64.so.2:strcmp) redirected to 0x483ffd0 (strcmp)
+--187472-- REDIR: 0x4023370 (ld-linux-x86-64.so.2:mempcpy) redirected to 0x4843a20 (mempcpy)
+--187472-- Reading syms from /usr/lib/x86_64-linux-gnu/libc-2.31.so
+--187472--   Considering /usr/lib/x86_64-linux-gnu/libc-2.31.so ..
+--187472--   .. CRC mismatch (computed 86b78530 wanted e380f01c)
+--187472--   Considering /lib/x86_64-linux-gnu/libc-2.31.so ..
+--187472--   .. CRC mismatch (computed 86b78530 wanted e380f01c)
+--187472--   Considering /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.31.so ..
+--187472--   .. CRC is valid
+--187472-- REDIR: 0x48f4600 (libc.so.6:memmove) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3900 (libc.so.6:strncpy) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4930 (libc.so.6:strcasecmp) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3220 (libc.so.6:strcat) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3960 (libc.so.6:rindex) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f5dd0 (libc.so.6:rawmemchr) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x4910e60 (libc.so.6:wmemchr) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x49109a0 (libc.so.6:wcscmp) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4760 (libc.so.6:mempcpy) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4590 (libc.so.6:bcmp) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3890 (libc.so.6:strncmp) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f32d0 (libc.so.6:strcmp) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f46c0 (libc.so.6:memset) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x4910960 (libc.so.6:wcschr) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f37f0 (libc.so.6:strnlen) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f33b0 (libc.so.6:strcspn) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4980 (libc.so.6:strncasecmp) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3350 (libc.so.6:strcpy) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4ad0 (libc.so.6:memcpy@@GLIBC_2.14) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x49120d0 (libc.so.6:wcsnlen) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x49109e0 (libc.so.6:wcscpy) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f39a0 (libc.so.6:strpbrk) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3280 (libc.so.6:index) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f37b0 (libc.so.6:strlen) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48fcd20 (libc.so.6:memrchr) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f49d0 (libc.so.6:strcasecmp_l) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4550 (libc.so.6:memchr) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x4910ab0 (libc.so.6:wcslen) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f3c60 (libc.so.6:strspn) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f48d0 (libc.so.6:stpncpy) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4870 (libc.so.6:stpcpy) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f5e10 (libc.so.6:strchrnul) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x48f4a20 (libc.so.6:strncasecmp_l) redirected to 0x48311d0 (_vgnU_ifunc_wrapper)
+--187472-- REDIR: 0x49dc490 (libc.so.6:__strrchr_avx2) redirected to 0x483ea10 (rindex)
+--187472-- REDIR: 0x48ee260 (libc.so.6:malloc) redirected to 0x483b780 (malloc)
+--187472-- REDIR: 0x49dc660 (libc.so.6:__strlen_avx2) redirected to 0x483ef40 (strlen)
+--187472-- REDIR: 0x49df670 (libc.so.6:__memcpy_avx_unaligned_erms) redirected to 0x48429f0 (memmove)
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x10923C: main (6-main.c:18)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x109256: main (6-main.c:19)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x109270: main (6-main.c:20)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x10928A: main (6-main.c:21)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x1092A4: main (6-main.c:22)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x1092BE: main (6-main.c:23)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x1092D8: main (6-main.c:24)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x10930F: main (6-main.c:27)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+--187472-- REDIR: 0x48ee850 (libc.so.6:free) redirected to 0x483c9d0 (free)
+--187472-- REDIR: 0x49d7b60 (libc.so.6:__strcmp_avx2) redirected to 0x483fed0 (strcmp)
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x109369: main (6-main.c:33)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1097A8: hash_table_print (5-hash_table_print.c:25)
+==187472==    by 0x1093C3: main (6-main.c:37)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+--187472-- REDIR: 0x49dc2a0 (libc.so.6:__strchrnul_avx2) redirected to 0x4843540 (strchrnul)
+--187472-- REDIR: 0x49df650 (libc.so.6:__mempcpy_avx_unaligned_erms) redirected to 0x4843660 (mempcpy)
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x10985B: hash_table_delete (6-hash_table_delete.c:16)
+==187472==    by 0x1093CF: main (6-main.c:38)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== HEAP SUMMARY:
+==187472==     in use at exit: 0 bytes in 0 blocks
+==187472==   total heap usage: 44 allocs, 44 frees, 9,749 bytes allocated
+==187472== 
+==187472== All heap blocks were freed -- no leaks are possible
+==187472== 
+==187472== ERROR SUMMARY: 2057 errors from 11 contexts (suppressed: 0 from 0)
+==187472== 
+==187472== 1 errors in context 1 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x109369: main (6-main.c:33)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 2 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x10930F: main (6-main.c:27)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 3 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x1092D8: main (6-main.c:24)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 4 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x1092BE: main (6-main.c:23)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 5 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x1092A4: main (6-main.c:22)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 6 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x10928A: main (6-main.c:21)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 7 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x109270: main (6-main.c:20)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 8 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x109256: main (6-main.c:19)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1 errors in context 9 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1095B4: hash_table_set (3-hash_table_set.c:41)
+==187472==    by 0x10923C: main (6-main.c:18)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1024 errors in context 10 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x10985B: hash_table_delete (6-hash_table_delete.c:16)
+==187472==    by 0x1093CF: main (6-main.c:38)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== 
+==187472== 1024 errors in context 11 of 11:
+==187472== Conditional jump or move depends on uninitialised value(s)
+==187472==    at 0x1097A8: hash_table_print (5-hash_table_print.c:25)
+==187472==    by 0x1093C3: main (6-main.c:37)
+==187472==  Uninitialised value was created by a heap allocation
+==187472==    at 0x483B7F3: malloc (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==187472==    by 0x109433: hash_table_create (0-hash_table_create.c:31)
+==187472==    by 0x10921E: main (6-main.c:17)
+==187472== 
+==187472== ERROR SUMMARY: 2057 errors from 11 contexts (suppressed: 0 from 0)
