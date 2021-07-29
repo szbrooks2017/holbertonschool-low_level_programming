@@ -10,7 +10,7 @@ void hash_table_print(const hash_table_t *ht)
     /*  print the key value in the order they appear */
 	unsigned long int i;
 	hash_node_t *tmp = NULL;
-	short comma = 0;
+	unsigned int comma = 0;
 
 	if (ht == NULL)
 	{

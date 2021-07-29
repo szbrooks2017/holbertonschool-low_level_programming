@@ -35,12 +35,15 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	/* set the key value pair and next pointer to new node */
 	node->key = strdup(key);
 	node->value = strdup(value);
+	node->next = NULL;
 	/* set temp to array index, if tmp is equal to key passed then free */
 	tmp = ht->array[idx];
 	if (tmp && strcmp(key, tmp->key) == 0)
 	{
 		free(tmp->value);
-		tmp->value = strdup(value);
+		tmp->value = node->value;
+		free(node->key);
+		free(node);
 		return (1);
 	}
 
