@@ -10,15 +10,22 @@ void print_array(int *array, int start, int size)
 {
     int i = start;
 
-    while (start <= size)
+    if (start <= size)
     {
-        if (i <= size)
-            printf(", ");
-        printf("Searching in array: %d", array[i]);
-        ++i;
+		printf("Searching in array: ");
+		while (i <= size)
+		{
+     		printf("%d", array[i]);
+			if (i < size)
+			{
+				printf(", ");
+			}
+			i++;
+		}
     }
     printf("\n");
 }
+
 /**
  * binary_search - searches for a value with binary search
  * @array: a pointer to the first element of the array
