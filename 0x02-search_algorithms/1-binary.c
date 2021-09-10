@@ -3,19 +3,20 @@
 /**
  * print_array - Prints an array of integers
  *
+ * @start: the start of the array
  * @array: The array to be printed
  * @size: Number of elements in @array
  */
 void print_array(int *array, int start, int size)
 {
-    int i = start;
+	int i = start;
 
-    if (start <= size)
-    {
+	if (start <= size)
+	{
 		printf("Searching in array: ");
 		while (i <= size)
 		{
-     		printf("%d", array[i]);
+			printf("%d", array[i]);
 			if (i < size)
 			{
 				printf(", ");
@@ -23,7 +24,7 @@ void print_array(int *array, int start, int size)
 			i++;
 		}
 		printf("\n");
-    }
+	}
 }
 
 /**
