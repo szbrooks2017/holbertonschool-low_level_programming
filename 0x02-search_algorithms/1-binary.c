@@ -22,8 +22,8 @@ void print_array(int *array, int start, int size)
 			}
 			i++;
 		}
+		printf("\n");
     }
-    printf("\n");
 }
 
 /**
@@ -50,7 +50,7 @@ int binary_search(int *array, size_t size, int value)
 
 			if (array[mid] == value)
 			{
-				return mid;
+				return (mid);
 			}
 			else if (array[mid] > value)
 			{
@@ -64,5 +64,5 @@ int binary_search(int *array, size_t size, int value)
 			}
 		}
 	}
-	return -1;
+	return (-1);
 }
