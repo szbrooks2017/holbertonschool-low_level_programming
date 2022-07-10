@@ -1,10 +1,10 @@
 #include "lists.h"
 /**
-* delete_nodeint_at_index - deletes a node
-* @head: a pointer to the head of the linked list
-* @index: the position of node to be updated
-* Return: returns
-*/
+ * delete_nodeint_at_index - deletes a node
+ * @head: a pointer to the head of the linked list
+ * @index: the position of node to be updated
+ * Return: returns
+ */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
@@ -35,4 +35,3 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	}
 	return (1);
 }
-

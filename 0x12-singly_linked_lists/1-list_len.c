@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
-* list_len - gives the count of the elements
-* @h: is the head or current node
-*
-* Return: returns the count
-*/
+ * list_len - gives the count of the elements
+ * @h: is the head or current node
+ *
+ * Return: returns the count
+ */
 
 size_t list_len(const list_t *h)
 {
@@ -16,5 +16,5 @@ size_t list_len(const list_t *h)
 		count++;
 		h = h->next;
 	}
-return (count);
+	return (count);
 }

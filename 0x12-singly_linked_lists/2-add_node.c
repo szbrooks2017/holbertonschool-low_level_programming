@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
-* add_node - adds a node at the beginning of list_t list
-* @head: a pointer to the head of list_t list
-* @str: the string to be added to the list
-* Return: if
-*/
+ * add_node - adds a node at the beginning of list_t list
+ * @head: a pointer to the head of list_t list
+ * @str: the string to be added to the list
+ * Return: if
+ */
 
 list_t *add_node(list_t **head, const char *str)
 {

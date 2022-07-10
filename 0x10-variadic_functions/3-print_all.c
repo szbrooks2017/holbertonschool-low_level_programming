@@ -7,22 +7,22 @@ void print_float(va_list args);
 void print_string(va_list args);
 
 /**
-* print_all - prints anything followed by a new line
-* @format: a string of characters representing arg types
-* @...: a variable number of args to be printed
-*
-*/
+ * print_all - prints anything followed by a new line
+ * @format: a string of characters representing arg types
+ * @...: a variable number of args to be printed
+ *
+ */
 
-void print_all(const char * const format, ...)
+void print_all(const char *const format, ...)
 {
 	va_list args;
 
 	format_t form_types[] = {
-		{ "c", print_char },
-		{ "i", print_int },
-		{ "f", print_float },
-		{ "s", print_string },
-		};
+		{"c", print_char},
+		{"i", print_int},
+		{"f", print_float},
+		{"s", print_string},
+	};
 
 	unsigned int index = 0;
 	unsigned int j_dex;
@@ -41,18 +41,18 @@ void print_all(const char * const format, ...)
 				form_types[j_dex].f(args);
 				space = ", ";
 			}
-		j_dex++;
+			j_dex++;
 		}
-	index++;
+		index++;
 	}
 	va_end(args);
 	printf("\n");
 }
 
 /**
-* print_char - prints a char
-* @args: arguements pointing to char
-*/
+ * print_char - prints a char
+ * @args: arguements pointing to char
+ */
 
 void print_char(va_list args)
 {
@@ -60,9 +60,9 @@ void print_char(va_list args)
 }
 
 /**
-* print_int - prints an int
-* @args: arguements pointing to int
-*/
+ * print_int - prints an int
+ * @args: arguements pointing to int
+ */
 
 void print_int(va_list args)
 {
@@ -70,9 +70,9 @@ void print_int(va_list args)
 }
 
 /**
-* print_float - prints a float
-* @args: arguements pointing to float
-*/
+ * print_float - prints a float
+ * @args: arguements pointing to float
+ */
 
 void print_float(va_list args)
 {
@@ -80,9 +80,9 @@ void print_float(va_list args)
 }
 
 /**
-* print_string - prints a string
-* @args: arguements pointing to int
-*/
+ * print_string - prints a string
+ * @args: arguements pointing to int
+ */
 
 void print_string(va_list args)
 {

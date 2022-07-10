@@ -3,11 +3,11 @@
 #include <stdarg.h>
 
 /**
-* print_strings - print strings with new line
-* @separator: string to be printed between strings
-* @n: the number of strings passed to the function
-* @...: a variable number of strings to be printed
-*/
+ * print_strings - print strings with new line
+ * @separator: string to be printed between strings
+ * @n: the number of strings passed to the function
+ * @...: a variable number of strings to be printed
+ */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -24,7 +24,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		if (string == NULL)
 		{
 			printf("(nil)");
-
 		}
 		else
 		{

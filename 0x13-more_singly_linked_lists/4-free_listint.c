@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
-* free_listint - frees the list
-* @head: a pointer to the head of the list to be freed
-*
-*/
+ * free_listint - frees the list
+ * @head: a pointer to the head of the list to be freed
+ *
+ */
 
 void free_listint(listint_t *head)
 {

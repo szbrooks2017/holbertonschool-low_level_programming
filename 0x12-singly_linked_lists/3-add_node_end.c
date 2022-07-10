@@ -1,11 +1,11 @@
 #include "lists.h"
 #include <string.h>
 /**
-* add_node_end - adds a node to the end
-* @head: a pointer to head
-* @str: a string to be added at the end
-* Return: returns pointer
-*/
+ * add_node_end - adds a node to the end
+ * @head: a pointer to head
+ * @str: a string to be added at the end
+ * Return: returns pointer
+ */
 list_t *add_node_end(list_t **head, const char *str)
 {
 

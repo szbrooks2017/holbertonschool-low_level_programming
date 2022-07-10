@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-* print_numbers - prints numbers with a new line
-* @separator: is the string to be printed between numbs
-* @n: the number of ints passed
-*/
+ * print_numbers - prints numbers with a new line
+ * @separator: is the string to be printed between numbs
+ * @n: the number of ints passed
+ */
 
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
