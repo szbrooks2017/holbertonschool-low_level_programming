@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
-* main - everything is in main
-*
-* Return: return 0
-*/
+ * main - everything is in main
+ *
+ * Return: return 0
+ */
 
 int main(void)
 {
-int a;
+    int a;
 
-for (a = 0; a < 10; a++)
-printf("%d", a);
-printf("\n");
+    for (a = 0; a < 10; a++)
+        printf("%d", a);
+    printf("\n");
 
-return (0);
+    return (0);
 }
