@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-* main- with main the statement begins
-*
-* Return: with return you return the integer
-*/
+ * main- with main the statement begins
+ *
+ * Return: 0 for success
+ */
 
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art,\n");
-return (0);
+    printf("with proper grammar, but the outcome is a piece of art,\n");
+    return (0);
 }
