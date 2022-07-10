@@ -13,20 +13,54 @@ This is the first project to introduce the C Programming language, it includes:
 - use `gcc`, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 ## File Descriptions
-[0-preprocessor](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) -  a bash script that runs a C file through the preprocessor and save the result into another file.
+[0x00-hello_world](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x00-hello_world) -  a bash script that runs a C file through the preprocessor and save the result into another file.
 
-[1-compiler](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/1-compiler) - a bash script that compiles a C file but does not link.
+[0x01-variables_if_else_while](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x01-variables_if_else_while) - a bash script that compiles a C file but does not link.
 
-[2-assembler](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/2-assembler) -  a bash script that generates the assembly code of a C code and save it in an output file.
+[0x02-functions_nested_loops](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x02-functions_nested_loops) -  a bash script that generates the assembly code of a C code and save it in an output file.
 
-[3-name](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/3-name) - a bash script that compiles a C file and creates an executable named cisfun.
+[0x03-debugging](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x03-debugging) - a bash script that compiles a C file and creates an executable named cisfun.
 
-[4-puts.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/4-puts.c) - a C program that prints a string exactly, followed by a new line, using only `puts`.
+[0x04-more_functions_nested_loops](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x04-more_functions_nested_loops) - a C program that prints a string exactly, followed by a new line, using only `puts`.
 
-[5-printf.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/5-printf.c) - a C program that prints a string exactly, followed by a new line, using `printf`.
+[0x05-pointers_arrays_strings](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x05-pointers_arrays_strings) - a C program that prints a string exactly, followed by a new line, using `printf`.
 
-[6-size.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/6-size.c) - a C program that prints the size of various types on the computer it is compiled and run on, using  `sizeof`.
+[0x06-pointers_arrays_strings](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x06-pointers_arrays_strings) - a C program that prints the size of various types on the computer it is compiled and run on, using  `sizeof`.
 
-[100-intel](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/100-intel) -  a bash script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+[0x07-pointers_arrays_strings](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x07-pointers_arrays_strings) -  a bash script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 
-[101-quote.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+[0x08-recursion](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x08-recursion](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x09-static_libraries](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x0A-argc_argv](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x0B-malloc_free](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x0C-more_malloc_free](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x0D-preprocessor](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x0E-structures_typedef](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x0F-function_pointers](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x10-variadic_functions](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x12-singly_linked_lists](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x13-more_singly_linked_lists](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x14-bit_manipulation](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x15-file_io](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x18-dynamic_libraries](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x1C-makefiles](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x00-hash_tables](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
+
+[0x02-search_algorithms](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/101-quote.c) -  a C program that prints a string exactly, followed by a new line, to standard error.
