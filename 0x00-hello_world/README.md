@@ -21,7 +21,7 @@ This is the first project to introduce the C Programming language, it includes:
 
 [3-name](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) - a bash script that compiles a C file and creates an executable named cisfun.
 
-[4-puts.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) - a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line, using only **puts**.
+[4-puts.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) - a C program that prints a string exactly, followed by a new line, using only **puts**.
 
 [5-printf.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) - a C program that prints a string exactly, followed by a new line, using **printf**.
 
