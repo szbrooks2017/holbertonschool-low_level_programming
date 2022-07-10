@@ -1,8 +1,8 @@
 /**
-* get_endianness - gets endians
-* Return: - returns 1 or 0
-*
-*/
+ * get_endianness - gets endians
+ * Return: - returns 1 or 0
+ *
+ */
 int get_endianness(void)
 {
 	int x = 1;
