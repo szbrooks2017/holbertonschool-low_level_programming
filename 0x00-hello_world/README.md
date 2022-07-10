@@ -1,7 +1,7 @@
 # 0x00-hello_world
 ## About
 This is the first project to introduce the C Programming language, it includes:
-- What is **main**
+- What is 'main'
 - How to print text using **printf**, **puts**, and **putchar**
 - How to get the size of a specific type using unary operator **sizeof**
 - How to compile using **gcc**
