@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
-* string_nconcat - concatenates two strings up to n bytes of s2
-* @s1: string 1 to concat with string 2
-* @s2: string 2 to use if n <= s2
-* @n: number of bytes to concat with
-* Return: returns pointer to strings
-*/
+ * string_nconcat - concatenates two strings up to n bytes of s2
+ * @s1: string 1 to concat with string 2
+ * @s2: string 2 to use if n <= s2
+ * @n: number of bytes to concat with
+ * Return: returns pointer to strings
+ */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -21,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1[i])
 		i++;
 
-		l = i + n;
+	l = i + n;
 
 	cat = malloc((sizeof(char) * l) + 1);
 	if (cat == NULL)
@@ -35,8 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; s2[i] && i < n; i++)
 		cat[x++] = s2[i];
-cat[x] = '\0';
+	cat[x] = '\0';
 
-return (cat);
-
+	return (cat);
 }

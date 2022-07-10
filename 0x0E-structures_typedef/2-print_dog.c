@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
-* print_dog - prints all the data of a dog
-* @d: a dog struct
-* Return: returns nothing
-*/
+ * print_dog - prints all the data of a dog
+ * @d: a dog struct
+ * Return: returns nothing
+ */
 
 void print_dog(struct dog *d)
 {

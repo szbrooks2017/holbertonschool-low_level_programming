@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
-* main - is the main argument
-* @argc: number of arguments
-* @argv: array of arguments
-* Return: returns 1 if false and 0 if true
-*/
+ * main - is the main argument
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: returns 1 if false and 0 if true
+ */
 
 int main(int argc, char *argv[])
 {
@@ -26,5 +26,5 @@ int main(int argc, char *argv[])
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-return (0);
+	return (0);
 }

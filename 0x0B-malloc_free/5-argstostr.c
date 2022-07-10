@@ -2,11 +2,11 @@
 #include "holberton.h"
 
 /**
-* argstostr - concatenates strings
-* @ac: size of string
-* @av: string to concatenate
-* Return: returns a pointer to the string
-*/
+ * argstostr - concatenates strings
+ * @ac: size of string
+ * @av: string to concatenate
+ * Return: returns a pointer to the string
+ */
 
 char *argstostr(int ac, char **av)
 {
@@ -45,4 +45,3 @@ char *argstostr(int ac, char **av)
 	*string = '\0';
 	return (newstring);
 }
-

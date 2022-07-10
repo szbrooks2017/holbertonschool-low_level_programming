@@ -2,12 +2,12 @@
 #include "holberton.h"
 
 /**
-* _calloc - allocates mem beg with 0
-* @size: the byte size of each array element
-* @nmemb: number of elements
-*
-* Return: returns a pointer
-*/
+ * _calloc - allocates mem beg with 0
+ * @size: the byte size of each array element
+ * @nmemb: number of elements
+ *
+ * Return: returns a pointer
+ */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -30,5 +30,5 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		i++;
 	}
 
-return (str);
+	return (str);
 }

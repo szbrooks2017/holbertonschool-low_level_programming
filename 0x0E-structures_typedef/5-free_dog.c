@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-* free_dog - let the dogs out
-* @d: is the dog to be freed
-*/
+ * free_dog - let the dogs out
+ * @d: is the dog to be freed
+ */
 
 void free_dog(dog_t *d)
 {

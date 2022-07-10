@@ -2,11 +2,11 @@
 #include "dog.h"
 
 /**
-* *_strdup - duplicate a string
-* @str: the string to duplicate
-* Return: the string duplicated
-*
-*/
+ * *_strdup - duplicate a string
+ * @str: the string to duplicate
+ * Return: the string duplicated
+ *
+ */
 
 char *_strdup(char *str)
 {
@@ -34,16 +34,16 @@ char *_strdup(char *str)
 	}
 	duplicate[a] = '\0';
 
-return (duplicate);
+	return (duplicate);
 }
 
 /**
-* new_dog - creates a new dog
-* @name: the name of the dog
-* @age: the age of the dog
-* @owner: the owner of the dog
-* Return: returns new dog
-*/
+ * new_dog - creates a new dog
+ * @name: the name of the dog
+ * @age: the age of the dog
+ * @owner: the owner of the dog
+ * Return: returns new dog
+ */
 
 dog_t *new_dog(char *name, float age, char *owner)
 {

@@ -2,11 +2,11 @@
 #include "holberton.h"
 
 /**
-* *_strdup - duplicate a string
-* @str: the string to duplicate
-* Return: the string duplicated
-*
-*/
+ * *_strdup - duplicate a string
+ * @str: the string to duplicate
+ * Return: the string duplicated
+ *
+ */
 
 char *_strdup(char *str)
 {
@@ -34,5 +34,5 @@ char *_strdup(char *str)
 	}
 	duplicate[a] = '\0';
 
-return (duplicate);
+	return (duplicate);
 }

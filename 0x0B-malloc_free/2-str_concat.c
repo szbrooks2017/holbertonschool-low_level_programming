@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
-* str_concat - concatenates two strings of any size
-* @s1: first string
-* @s2: second string
-* Return: the two strings
-*/
+ * str_concat - concatenates two strings of any size
+ * @s1: first string
+ * @s2: second string
+ * Return: the two strings
+ */
 
 char *str_concat(char *s1, char *s2)
 {
@@ -21,7 +21,6 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	while (s2[j])
 		j++;
-
 
 	l = i + j;
 	s = malloc((sizeof(char) * l) + 1);

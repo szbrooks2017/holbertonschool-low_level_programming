@@ -2,11 +2,11 @@
 #include "holberton.h"
 
 /**
-* array_range - creates an array
-* @min: the first value of the array
-* @max: the last value of the array
-* Return: if min > max or fail then nul
-*/
+ * array_range - creates an array
+ * @min: the first value of the array
+ * @max: the last value of the array
+ * Return: if min > max or fail then nul
+ */
 
 int *array_range(int min, int max)
 {
