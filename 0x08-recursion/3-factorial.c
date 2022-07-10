@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-* factorial - factors ints
-* @n: is a number
-* Return: returns nothing
-*/
+ * factorial - factors ints
+ * @n: is a number
+ * Return: returns nothing
+ */
 
 int factorial(int n)
 {

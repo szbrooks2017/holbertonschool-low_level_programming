@@ -1,17 +1,17 @@
 #include "holberton.h"
 
 /**
-* _strlen - strlen in standard lib
-* @str: is a string
-* Return: returns 0
-*/
+ * _strlen - strlen in standard lib
+ * @str: is a string
+ * Return: returns 0
+ */
 
 int _strlen(char *str)
 {
 
-int len = 0;
+    int len = 0;
 
-while (*str++)
-len++;
-return (len);
+    while (*str++)
+        len++;
+    return (len);
 }

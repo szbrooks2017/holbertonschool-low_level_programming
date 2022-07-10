@@ -2,10 +2,10 @@
 int _pali(char *s, char *z);
 int _strlen_recursion(char *s);
 /**
-* is_palindrome - returns a palindrome
-* @s: is a string
-* Return: returns the string
-*/
+ * is_palindrome - returns a palindrome
+ * @s: is a string
+ * Return: returns the string
+ */
 int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s);
@@ -19,11 +19,11 @@ int is_palindrome(char *s)
 }
 
 /**
-* _pali - is a palilndrone
-* @s: is a string
-* @z: is a string
-* Return: returns the pali
-*/
+ * _pali - is a palilndrone
+ * @s: is a string
+ * @z: is a string
+ * Return: returns the pali
+ */
 
 int _pali(char *s, char *z)
 {
@@ -38,13 +38,13 @@ int _pali(char *s, char *z)
 	else
 	{
 		return (_pali(s + 1, z - 1));
-}
+	}
 }
 /**
-* _strlen_recursion - counts the length of a line
-* @s: is a string
-* Return: returns nothing
-*/
+ * _strlen_recursion - counts the length of a line
+ * @s: is a string
+ * Return: returns nothing
+ */
 
 int _strlen_recursion(char *s)
 {
@@ -53,4 +53,3 @@ int _strlen_recursion(char *s)
 	else
 		return (1 + _strlen_recursion(s + 1));
 }
-

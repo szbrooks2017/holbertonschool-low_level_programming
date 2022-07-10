@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* *cap_string - caps the string
-* @s: s is for string
-* Return: returns string
-*/
+ * *cap_string - caps the string
+ * @s: s is for string
+ * Return: returns string
+ */
 char *cap_string(char *s)
 {
 	int i;
@@ -18,8 +18,8 @@ char *cap_string(char *s)
 		{
 			if (s[i] == spesh[a])
 			{
-			if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
-			s[i + 1] = s[i + 1] - 32;
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+					s[i + 1] = s[i + 1] - 32;
 			}
 		}
 	}

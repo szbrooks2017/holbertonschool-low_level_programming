@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-* times_table - prints a 9 tines table
-*/
+ * times_table - prints a 9 tines table
+ */
 
 void times_table(void)
 {

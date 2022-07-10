@@ -1,11 +1,11 @@
 #include "holberton.h"
 int _strlen(char *s);
 /**
-* *_strcat - concatenates the string
-* @dest: is the destinatin
-* @src: is the source
-* Return: returns dest
-*/
+ * *_strcat - concatenates the string
+ * @dest: is the destinatin
+ * @src: is the source
+ * Return: returns dest
+ */
 
 char *_strcat(char *dest, char *src)
 {
@@ -14,20 +14,20 @@ char *_strcat(char *dest, char *src)
 
 	for (appending = 0; appending < dest_length; appending++)
 
-	dest[dest_length + appending] = src[appending];
+		dest[dest_length + appending] = src[appending];
 	dest[dest_length + appending] = '\0';
-return (dest);
+	return (dest);
 }
 
 /**
-* _strlen - looks at the string
-* @s: is an int
-* Return: returns 0
-*/
+ * _strlen - looks at the string
+ * @s: is an int
+ * Return: returns 0
+ */
 int _strlen(char *s)
 {
-int c = 0;
-while (s[c] != '\0')
-c++;
-return (c);
+	int c = 0;
+	while (s[c] != '\0')
+		c++;
+	return (c);
 }

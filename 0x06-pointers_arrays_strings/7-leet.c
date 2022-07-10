@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* *leet - leets man
-* Return: returns 0
-* @s: is a string
-*/
+ * *leet - leets man
+ * Return: returns 0
+ * @s: is a string
+ */
 
 char *leet(char *s)
 {
@@ -16,7 +16,7 @@ char *leet(char *s)
 	{
 		for (j = 0; j < 10; j++)
 			if (s[i] == let[j])
-			s[i] = numb[j];
+				s[i] = numb[j];
 	}
-return (s);
+	return (s);
 }

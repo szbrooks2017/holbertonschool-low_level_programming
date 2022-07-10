@@ -1,10 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-* print_diagsums - prints a chessboard
-* @a: is an array
-* @size: is the length of the diag
-*/
+ * print_diagsums - prints a chessboard
+ * @a: is an array
+ * @size: is the length of the diag
+ */
 
 void print_diagsums(int *a, int size)
 {
@@ -22,5 +22,5 @@ void print_diagsums(int *a, int size)
 		d2 += a[j];
 	}
 
-printf("%d, %d\n", d1, d2);
+	printf("%d, %d\n", d1, d2);
 }

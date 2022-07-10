@@ -1,11 +1,10 @@
 #include "holberton.h"
 /**
-* _strcmp - compares two strings
-* @s1: first string
-* @s2: second string
-* Return: returns an int
-*/
-
+ * _strcmp - compares two strings
+ * @s1: first string
+ * @s2: second string
+ * Return: returns an int
+ */
 
 int _strcmp(char *s1, char *s2)
 {

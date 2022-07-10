@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* *string_toupper - puts the string
-* @s: s is for string
-* Return: returns s
-*/
+ * *string_toupper - puts the string
+ * @s: s is for string
+ * Return: returns s
+ */
 
 char *string_toupper(char *s)
 {
@@ -15,7 +15,7 @@ char *string_toupper(char *s)
 		{
 			i[s] = i[s] - 32;
 		}
-	i++;
+		i++;
 	}
 	return (s);
 }

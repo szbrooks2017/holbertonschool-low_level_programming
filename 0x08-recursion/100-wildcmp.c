@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
-* wildcmp - is the function
-* @s1: string1
-* @s2: string2
-* Return: returns
-*/
+ * wildcmp - is the function
+ * @s1: string1
+ * @s2: string2
+ * Return: returns
+ */
 
 int wildcmp(char *s1, char *s2)
 {

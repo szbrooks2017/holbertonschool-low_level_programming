@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
-* *_strstr - finds the first occurrence of a substring
-* @haystack: string to search in
-* @needle: string to find in haystack
-* Return: returns the location of substring
-*/
+ * *_strstr - finds the first occurrence of a substring
+ * @haystack: string to search in
+ * @needle: string to find in haystack
+ * Return: returns the location of substring
+ */
 
 char *_strstr(char *haystack, char *needle)
 {

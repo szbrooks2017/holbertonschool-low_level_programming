@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
-* *rot13 - scrambles string
-* @s: is an int
-* Return: returns 0
-*/
+ * *rot13 - scrambles string
+ * @s: is an int
+ * Return: returns 0
+ */
 
 char *rot13(char *s)
 {

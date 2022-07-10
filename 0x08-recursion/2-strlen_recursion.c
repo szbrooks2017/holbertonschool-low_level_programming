@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-* _strlen_recursion - counts the length of a line
-* @s: is a string
-* Return: returns nothing
-*/
+ * _strlen_recursion - counts the length of a line
+ * @s: is a string
+ * Return: returns nothing
+ */
 
 int _strlen_recursion(char *s)
 {
