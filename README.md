@@ -1,5 +1,5 @@
 # 0x00-hello_world
-![alt text]([image.jpg](https://raw.githubusercontent.com/szbrooks2017/holbertonschool-low_level_programming/main/Assets/cisfun.jpg))
+![alt text](Assets/cisfun.jpg)
 ## About
 A series of projects to introduce the C Programming language, it includes:
 - Compiling for C
