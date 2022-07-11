@@ -1,4 +1,4 @@
-# 0x05-pointers_arrays_strings 
+# 0x0A-argc_argv 
 ## About
 This is the first project to introduce the C Programming language, it includes:
 - What is `main`
