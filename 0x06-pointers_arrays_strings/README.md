@@ -1,4 +1,4 @@
-#0x06-pointers_arrays_strings
+# 0x06-pointers_arrays_strings
 ## About
 This is the first project to introduce the C Programming language, it includes:
 - What is `main`
