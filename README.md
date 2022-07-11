@@ -70,6 +70,12 @@ A series of projects to introduce the C Programming language, it includes:
 
 25. [0x02-search_algorithms](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x02-search_algorithms) -  An introduction to search algorthims and Big O notation.
 
+## Related Partner Projects
+
+26. [printf](https://github.com/szbrooks2017/printf) -  Making `printf` from scratch.
+
+27. [simple_shell](https://github.com/szbrooks2017/simple_shell) -  Creating a custom bash-like command line interpreter, with better memory management than bash.
+
 ## Developer
 I'm Stratton Brooks, an XR developer based in Tulsa, OK. I specialize in Unity and WebXR.
 [Linkedin](https://www.linkedin.com/in/stratton-brooks/)
