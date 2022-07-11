@@ -1,4 +1,4 @@
-#0x00-hash_tables 
+# 0x00-hash_tables 
 ## About
 This is the first project to introduce the C Programming language, it includes:
 - What is `main`
