@@ -1,4 +1,4 @@
-# 0x00-hello_world
+# Low Level Programming
 ![alt text](Assets/cisfun.jpg)
 ## About
 A series of projects to introduce the C Programming language, it includes:
