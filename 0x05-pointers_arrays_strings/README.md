@@ -2,7 +2,8 @@
 
 ## About
 This is the first project to introduce the C Programming language, it includes:
-- more nested loops!
+- How to use pointers and arrays
+- What data structures are
 
 ## Requirements
 - Ubuntu 20.04 LTS
