@@ -2,11 +2,7 @@
 
 ## About
 This is the first project to introduce the C Programming language, it includes:
-- What is `main`
-- How to print text using `printf`, `puts`, and `putchar`.
-- How to get the size of a specific type using unary operator `sizeof`
-- How to compile using `gcc`
-- What is the default program name when compiling with gcc
+- more nested loops!
 
 ## Requirements
 - Ubuntu 20.04 LTS
