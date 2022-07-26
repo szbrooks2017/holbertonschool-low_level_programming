@@ -13,13 +13,13 @@ This is the first project to introduce the C Programming language, it includes:
 - use `gcc`, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 ## File Descriptions
-[0-sum_them_all.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) -  a bash script that runs a C file through the preprocessor and save the result into another file.
+[0-sum_them_all.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/tree/main/0x10-variadic_functions) -  a bash script that runs a C file through the preprocessor and save the result into another file.
 
-[1-print_numbers.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/1-compiler) - a bash script that compiles a C file but does not link.
+[1-print_numbers.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/0-sum_them_all.c) - a bash script that compiles a C file but does not link.
 
-[2-print_strings.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/2-assembler) -  a bash script that generates the assembly code of a C code and save it in an output file.
+[2-print_strings.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/1-print_numbers.c) -  a bash script that generates the assembly code of a C code and save it in an output file.
 
-[3-print_all.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/3-name) - a bash script that compiles a C file and creates an executable named cisfun.
+[3-print_all.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/3-print_all.c) - a bash script that compiles a C file and creates an executable named cisfun.
 
-[variadic_functions.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/4-puts.c) - a C program that prints a string exactly, followed by a new line, using only `puts`.
+[variadic_functions.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x10-variadic_functions/variadic_functions.h) - a C program that prints a string exactly, followed by a new line, using only `puts`.
 
