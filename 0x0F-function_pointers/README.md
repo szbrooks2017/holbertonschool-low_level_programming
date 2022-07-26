@@ -13,18 +13,18 @@ This is the first project to introduce the C Programming language, it includes:
 - use `gcc`, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 ## File Descriptions
-[0-print_name.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) -  a bash script that runs a C file through the preprocessor and save the result into another file.
+[0-print_name.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/0-print_name.c) -  a bash script that runs a C file through the preprocessor and save the result into another file.
 
-[1-array_iterator.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/1-compiler) - a bash script that compiles a C file but does not link.
+[1-array_iterator.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/1-array_iterator.c) - a bash script that compiles a C file but does not link.
 
-[2-int_index.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/2-assembler) -  a bash script that generates the assembly code of a C code and save it in an output file.
+[2-int_index.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/2-int_index.c) -  a bash script that generates the assembly code of a C code and save it in an output file.
 
-[3-calc.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/3-name) - a bash script that compiles a C file and creates an executable named cisfun.
+[3-calc.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/3-calc.h) - a bash script that compiles a C file and creates an executable named cisfun.
 
-[3-get_op_func.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/4-puts.c) - a C program that prints a string exactly, followed by a new line, using only `puts`.
+[3-get_op_func.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/3-get_op_func.c) - a C program that prints a string exactly, followed by a new line, using only `puts`.
 
-[3-main.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/5-printf.c) - a C program that prints a string exactly, followed by a new line, using `printf`.
+[3-main.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/3-main.c) - a C program that prints a string exactly, followed by a new line, using `printf`.
 
-[3-op_functions.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/6-size.c) - a C program that prints the size of various types on the computer it is compiled and run on, using  `sizeof`.
+[3-op_functions.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/3-op_functions.c) - a C program that prints the size of various types on the computer it is compiled and run on, using  `sizeof`.
 
-[function_pointers.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/100-intel) -  a bash script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+[function_pointers.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0F-function_pointers/function_pointers.h) -  a bash script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
