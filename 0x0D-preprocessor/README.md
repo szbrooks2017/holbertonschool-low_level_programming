@@ -13,13 +13,13 @@ This is the first project to introduce the C Programming language, it includes:
 - use `gcc`, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 ## File Descriptions
-[0-object_like_macro.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) -  a bash script that runs a C file through the preprocessor and save the result into another file.
+[0-object_like_macro.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0D-preprocessor/0-object_like_macro.h) -  a bash script that runs a C file through the preprocessor and save the result into another file.
 
-[1-pi.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/1-compiler) - a bash script that compiles a C file but does not link.
+[1-pi.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0D-preprocessor/1-pi.h) - a bash script that compiles a C file but does not link.
 
-[2-main.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/2-assembler) -  a bash script that generates the assembly code of a C code and save it in an output file.
+[2-main.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0D-preprocessor/2-main.c) -  a bash script that generates the assembly code of a C code and save it in an output file.
 
-[3-function_like_macro.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/3-name) - a bash script that compiles a C file and creates an executable named cisfun.
+[3-function_like_macro.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0D-preprocessor/3-function_like_macro.h) - a bash script that compiles a C file and creates an executable named cisfun.
 
-[4-sum.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/4-puts.c) - a C program that prints a string exactly, followed by a new line, using only `puts`.
+[4-sum.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0D-preprocessor/4-sum.h) - a C program that prints a string exactly, followed by a new line, using only `puts`.
 
