@@ -13,13 +13,13 @@ This is the first project to introduce the C Programming language, it includes:
 - use `gcc`, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 
 ## File Descriptions
-[1-init_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/0-preprocessor) -  a bash script that runs a C file through the preprocessor and save the result into another file.
+[1-init_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0E-structures_typedef/1-init_dog.c) -  a bash script that runs a C file through the preprocessor and save the result into another file.
 
-[2-print_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/1-compiler) - a bash script that compiles a C file but does not link.
+[2-print_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0E-structures_typedef/2-print_dog.c) - a bash script that compiles a C file but does not link.
 
-[4-new_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/2-assembler) -  a bash script that generates the assembly code of a C code and save it in an output file.
+[4-new_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0E-structures_typedef/4-new_dog.c) -  a bash script that generates the assembly code of a C code and save it in an output file.
 
-[5-free_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/3-name) - a bash script that compiles a C file and creates an executable named cisfun.
+[5-free_dog.c](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0E-structures_typedef/5-free_dog.c) - a bash script that compiles a C file and creates an executable named cisfun.
 
-[dog.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x00-hello_world/4-puts.c) - a C program that prints a string exactly, followed by a new line, using only `puts`.
+[dog.h](https://github.com/szbrooks2017/holbertonschool-low_level_programming/blob/main/0x0E-structures_typedef/dog.h) - a C program that prints a string exactly, followed by a new line, using only `puts`.
 
